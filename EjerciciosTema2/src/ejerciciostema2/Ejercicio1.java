@@ -22,9 +22,7 @@ public class Ejercicio1 {
 			System.out.print("El numero introducido es impar");
 		}
 		
-		
-		
-		
+		dogma.close();
 
 	}
 
