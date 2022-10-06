@@ -10,21 +10,20 @@ public class Ejercicio4 {
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca un numero: ");
+		System.out.print("Introduzca primer numero: ");
 		
 		numero1 = dogma.nextDouble();
 		
-		System.out.print("Introduzca otro numero: ");
+		System.out.print("Introduzca segundo numero: ");
 		
 		numero2 = dogma.nextDouble();
 		
 		if (numero1>numero2) {
-			
-		} else {
-			
+			System.out.print(numero2  + " y " + numero1);
+		} else {System.out.print(numero1  + " y " + numero2);
 		}
 		
-		
+		dogma.close();
 
 	}
 
