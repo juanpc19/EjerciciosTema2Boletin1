@@ -22,11 +22,6 @@ public class Ejercicio5 {
 		
 		numero3 = dogma.nextDouble();
 		
-		/* 1>2>3	1>3>2
-		 * 2>1>3 	2>3>1
-		 * 3>1>2	3>2>1	
-		*/
-		
 		if (numero1>numero2 && numero2>numero3) {
 			System.out.print(numero1 + " , " + numero2 + " , " + numero3);
 			
