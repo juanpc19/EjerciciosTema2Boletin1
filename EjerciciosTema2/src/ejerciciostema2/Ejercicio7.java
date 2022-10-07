@@ -16,7 +16,8 @@ public class Ejercicio7 {
 		
 		numeroIntroducido = dogma.nextLine();
 		
-		if ((numeroIntroducido>0) && (numeroIntroducido<99.999)) {
+		//relacionar numero de digitos con palabaras y entonces usar lecnth con string
+		if ((numeroIntroducido>=0) && (numeroIntroducido<=99.999)) {
 			System.out.print("El numero introducido tiene" + numeroIntroducido.length() + " cifras ");
 		} else {
 			System.out.print("El numero introducido no esta en el intervalo solicitado");

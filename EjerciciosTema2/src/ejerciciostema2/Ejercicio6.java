@@ -28,7 +28,7 @@ public class Ejercicio6 {
 		x2 = (-b - Math.sqrt(b*b-4*a*c)/2);
 		
 		// if
-		System.out.print(x2);
+		System.out.print(x1);
 		
 	}
 
