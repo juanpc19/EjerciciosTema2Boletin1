@@ -6,8 +6,7 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 
-		double a, b, c;
-		double x1, x2;
+		double a, b, c, x1, x2;
 		
 		Scanner dogma = new Scanner(System.in);
 		
@@ -25,10 +24,11 @@ public class Ejercicio6 {
 		
 		x1 = (-b + Math.sqrt(b*b-4*a*c)/2);
 	
-		x2 = (-b - Math.sqrt(b*b-4*a*c)/2);
+		//x2 = (-b - Math.sqrt(b*b-4*a*c)/2);
 		
 		// if
 		System.out.print(x1);
+		
 		
 	}
 
