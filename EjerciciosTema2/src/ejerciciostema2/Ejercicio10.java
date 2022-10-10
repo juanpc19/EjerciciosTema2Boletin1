@@ -22,14 +22,10 @@ public class Ejercicio10 {
 		
 		numero3 = dogma.nextInt();
 		
-		if (numero1+numero2==numero3) {
-			System.out.print("si cumple");
-		} else if (numero1+numero3==numero2) {
-			System.out.print("si cumple");
-		} else if (numero3+numero2==numero1) {
-			System.out.print("si cumple");
+		if ((numero1+numero2==numero3) || (numero1+numero3==numero2) || (numero3+numero2==numero1)) {
+			System.out.print("La suma de dos de esos números da como resultado el otro número");
 		} else {
-			System.out.print("no cumple");
+			System.out.print("La suma de dos de esos números NO da como resultado el otro número");
 		}
 
 		dogma.close();

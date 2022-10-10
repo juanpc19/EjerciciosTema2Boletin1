@@ -6,10 +6,12 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 
-		double a, b, c, x1, x2;
+		double a, b, c, x;//Declaro las variables
 		
+		//Creo un Scanner, lo nombro dogma y lo importo
 		Scanner dogma = new Scanner(System.in);
 		
+		//Solicito a usuario valor de a
 		System.out.print("Introduzca valor de a: ");
 		
 		a = dogma.nextDouble();
@@ -22,13 +24,15 @@ public class Ejercicio6 {
 
 		c = dogma.nextDouble();
 		
-		x1 = (-b + Math.sqrt(b*b-4*a*c)/2);
-	
-		//x2 = (-b - Math.sqrt(b*b-4*a*c)/2);
+		x = (-b + Math.sqrt(b*b-4*a*c)/2);
+		//Si la raiz cuadrada es negativa no tiene solucion
+		if (Math.sqrt(b*b-4*a*c)<0) {
+			System.out.print("La ecuacion no tiene solucion");
+		} else {
+			System.out.print("La solucion de la ecuacion es: " + x);
+		}
 		
-		// if
-		System.out.print(x1);
-		
+		dogma.close();
 		
 	}
 
