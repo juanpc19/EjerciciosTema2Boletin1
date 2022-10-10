@@ -29,7 +29,8 @@ public class Ejercicio4 {
 		
 		/*Establezco que de no cumplirse la condicion anterior se imprimira
 		el siguiente mensaje por consola*/
-		} else {System.out.print(numero1  + " y " + numero2);
+		} else {
+			System.out.print(numero1  + " y " + numero2);
 		}
 		
 		//Cierro el Scanner

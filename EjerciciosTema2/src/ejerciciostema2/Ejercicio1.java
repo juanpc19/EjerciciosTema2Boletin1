@@ -18,7 +18,7 @@ public class Ejercicio1 {
 		numeroIntroducido = dogma.nextInt();
 		
 		/*Asigno un valor a la variable con uso del operador modulo 
-		 * (resto de division de variable entre 2*/
+		 * (asigna a resto el resto de la division de variable entre 2)*/
 		resto = numeroIntroducido %2;
 		
 		//Establezco la condicion que al cumplirse imprimira el siguiente mensaje por consola
