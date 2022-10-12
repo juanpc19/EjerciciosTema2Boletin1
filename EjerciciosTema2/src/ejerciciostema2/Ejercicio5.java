@@ -32,6 +32,7 @@ public class Ejercicio5 {
 		//Establezco la condicion que al cumplirse imprimira el siguiente mensaje por consola
 		if (numero1>numero2 && numero2>numero3) {
 			System.out.print(numero1 + " , " + numero2 + " , " + numero3);
+			
 		/*Establezco la siguiente condicion a comprobar si la anterior no se cumple,
 		y de cumplirse esta ultima imprimira el siguiente mensaje por consola*/
 		} else if (numero1>numero3 && numero3>numero2) {

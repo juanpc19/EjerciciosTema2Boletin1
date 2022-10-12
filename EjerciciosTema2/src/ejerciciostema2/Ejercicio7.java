@@ -44,7 +44,7 @@ public class Ejercicio7 {
 		/*Establezco que de no cumplirse ninguna de las condiciones anteriores se imprimira
 		el siguiente mensaje por consola*/
 		} else { 
-			System.out.print("El numero introducido no se encuentra en el intervalo solicitado (0/99.999");
+			System.out.print("El numero introducido no se encuentra en el intervalo solicitado (0/99.999)");
 		}
 		
 		//Cierro el Scanner
